@@ -10,3 +10,9 @@
     <li>HTML</li>
     <li>CSS</li>
 </ul>
+
+<h1>Hospedagem</h1>
+
+<a href="https://tabelacampeonatoacme.netlify.app" target="_blank">
+    <img src="./img/acesse_site.png"/>
+</a>
