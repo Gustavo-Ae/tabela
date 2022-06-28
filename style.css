@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial;
+}
+
+.tabela{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+table{
+    border: 1px solid #DDDDDD;
+    border-collapse: collapse;
+    width : 750px;
+}
+
+td, th {
+    border-bottom: 1px solid #dddddd;
+    padding: 8px;
+}
+
+.tabela_head{
+    padding: .3rem 1.2rem;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    color: #999999;
+}
+
+.posicao_time{ 
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    padding: 0 10px;
+    width: 50px;
+}
+
+.nome_time{
+    font-size: 14px;
+    color: #666666;
+    font-weight: bold;
+    text-align: left;
+    width: 150px;
+}
+
+.pontos{
+    font-weight: bolder;
+}
+
+.pontos, .vitorias, .derrotas, .golsContra, .aproveitamento{
+    background-color: #F7F7F7;
+}
+
+.colunas_Classificacao{
+    text-align: center;
+    font-size: 14px;
+    color: #666666;
+    font-weight: none;
+    width: 63px;
+}
+
+tr:nth-child(4){
+    border-bottom: 2px solid #CCCCCC;
+}
+
+tr:nth-child(16){
+    border-bottom: 2px solid #CCCCCC;
+}
+
+.cor_tacaLibertadores{
+    color: #003366;
+}
+
+.cor_preLibertadores{
+    color: #1398BE;
+}
+
+.cor_sulAmericana{
+    color: #DE9800;
+}
+
+.cor_cinza{
+    color: #CCCCCC;
+}
+
+.cor_rebaixados{
+    color: #C91B04;
+}
+
+.tfoot_tipoClassificacao{
+    font-size: 10px;
+    color: #8F8F8F;
+    text-align: left;
+}
+
+.tfoot_tipoClassificacao 
+.quadrado_tacaLibertadores, 
+.quadrado_preLibertadores,
+.quadrado_sulAmericana, 
+.quadrado_rebaixados{
+    padding-left: 13px;
+}
+
+.quadrado_tacaLibertadores::before{
+    content: "";
+    border-left: 11px solid #003366;
+    margin-right: 10px;
+    border-radius: 2px;
+}
+
+.quadrado_preLibertadores::before{
+    content: "";
+    border-left: 11px solid #1398BE;
+    margin-right: 10px;
+    border-radius: 2px;
+}
+
+.quadrado_sulAmericana::before{
+    content: "";
+    border-left: 11px solid #DE9800;
+    margin-right: 10px;
+    border-radius: 2px;
+}
+
+.quadrado_rebaixados::before{
+    content: "";
+    border-left: 11px solid #C91B04;
+    margin-right: 10px;
+    border-radius: 2px;
+}
+
+
+.tfoot_legenda_e_siglas{
+    padding: 10px 0 0 15px;
+}
+
+.sigla_legenda{
+    font-size: 10px;
+    color: #555555;
+    font-weight: bolder;
+    text-align: left;
+}
+
+.significado_legenda{
+    font-size: 10px;
+    color: #555555;
+    text-align: left;
+    padding-right:5px;
+}
